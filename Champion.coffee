@@ -1,8 +1,11 @@
+mongoose = require 'mongoose'
+Schema   = mongoose.Schema
+
 championSchema = 
   name: String
   title: String
   portrait: String
-  abilitites:
+  abilities:
     q:
       title: String
       icon: String
