@@ -1,0 +1,20 @@
+{
+  "name": "champion-scraper",
+  "version": "0.0.0",
+  "description": "gathers champion data from http://leagueoflegends.com/champions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "jsdom": "~0.3.4",
+    "chai": "~1.4.2",
+    "request": "~2.12.0",
+    "mocha": "~1.8.1",
+    "express": "~3.1.0",
+    "mongoose": "~3.5.5"
+  }
+}
