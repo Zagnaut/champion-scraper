@@ -13,7 +13,7 @@ db.once 'open', () ->
   console.log "Mongoose is a-go"
 
 Champion = require './Champion'
-championNames = require './lib/championNames.json'
+championNames = require './lib/championNames'
 console.log championNames
 
 scrapeChampion = (name) ->
