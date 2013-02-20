@@ -1,9 +1,11 @@
+
 {
   "todo":[
+    "break index out into modules",
+    "move project to src",
     "parse out a single champion",
     "parse out each champion"
   ],
   "done": [
   ]
-
 }
